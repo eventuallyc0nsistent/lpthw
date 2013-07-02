@@ -11,14 +11,19 @@ def rewind(f):
 def print_a_line (line_count,f):
 	print line_count,f.readline()
 
+current_file = open(input_file)
+
 print "Printing full file: \n"
 print_all(current_file)
 
+print "Rewinding....."
+rewind(current_file)
+
 print "Printing 3 lines:"
-current_line=1
+current_line= 1
 print_a_line(current_line,current_file)
 
-current_line = current_line +1
+current_line = current_line + 1
 print_a_line(current_line,current_file)
 
 current_line = current_line + 1
