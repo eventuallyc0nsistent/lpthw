@@ -1,0 +1,33 @@
+Keywords
+-----------
+and 		and logical operator
+del			delete element from list . eg : del a[9]
+from		from library to import
+not			logical not
+while		while loop
+as 			a different name
+elif		else if 
+global		globally declared variable
+or 			logical OR operator
+with		
+assert		
+else		else statement
+if			if statement
+pass
+yield
+break		end of switch statement or condition
+except		
+import		importing from library
+print		printing variables / sentences
+class		to declare a class
+exec
+in 			to check it exists in
+raise 		
+continue	continue with the program
+finally
+is 			
+return 		function return
+def			function define
+for 		for loop
+lambda
+try
